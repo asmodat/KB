@@ -3,7 +3,7 @@ Describes simplest (dirty and **NOT** secure) setup to get running on the polkad
 
 ## Prerequisites 
 * Clean Ubuntu 18.04 LTS
-* Installation of the [Essential Toolkit](/PolkadotEssential-Toolkit.md)
+* Installation of the [Essential Toolkit](/Polkadot/Essential-Toolkit.md)
 
 
 ## Table of Content
