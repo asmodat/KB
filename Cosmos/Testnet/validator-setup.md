@@ -47,10 +47,12 @@ gaiad unsafe-reset-all
 
 cd $GOPATH/src/github.com/cosmos/cosmos-sdk
 
+tag="v0.35.0"
 git checkout master
 git fetch --all
-git reset --hard v0.34.0
-git pull
+git reset --hard $tag
+git checkout -f $tag
+git pull origin $tag
 
 make clean 
 make tools install
